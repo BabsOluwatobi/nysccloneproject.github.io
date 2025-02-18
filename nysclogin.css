@@ -1,0 +1,467 @@
+.header {
+    margin-top: -18px;
+    height: 10px;
+    margin-left: 70px;
+}
+
+img {
+    width: 75px;
+    height: 85px;
+    margin-top: 10px;
+}
+
+.NYSCLOGO {
+    margin-left: 145px;
+    width: 46px;
+    height: 55px;
+    border: none;
+    margin-top: 20px
+}
+
+.NYSC {
+    width: 600px;
+    height: 55px;
+    margin-left: 60px;
+    text-align: center;
+    margin-top: -50px;
+    font-family: trebuchet MS;
+    color: green;
+    font-weight: small;
+    border-right-width: 15px;
+}
+
+.motto {
+    margin-top: -15px;
+    color: red;
+    font-style: bold;
+    font-family: trebuchet MS;
+}
+
+.navigation {
+    height: 55px;
+    width: 650px;
+    margin-left: 550px;
+    margin-top: -65px;
+    padding-left: 30px;
+    border-left: solid;
+    border-left-color: rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.homebutton {
+    padding-right: 35px
+}
+
+.paymentbutton {
+    padding-right: 35px
+}
+
+.contactbutton {
+    padding-right: 35px
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.welcome {
+    border-color: red;
+    border-top: solid;
+    color: white;
+    background-color: rgba(0, 53, 0);
+    height: 65px;
+    margin-top: -10px;
+    padding-left: 205px;
+    border-top-color: red;
+    border-bottom: solid;
+    width: 100%;
+    margin-left: -80px;
+    font-family: arial;
+    padding-bottom: 2px;
+    padding-top: -0.2px;
+}
+
+.h1welcome {
+    height: 50px;
+}
+
+.hr1 {
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: -1px;
+    margin-left: -70px;
+}
+
+.registration {
+    width: 720px;
+    height: 80px;
+    border: none;
+    border-color: rgb(0, 0, 0, 0.2);
+    font-family: cursive;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 200px;
+    margin-left: 210px;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.divlogin {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: -60px;
+    margin-top: 45px;
+    font-family: cursive;
+}
+
+.imglogin {
+    height: 100px;
+    width: 100px;
+}
+
+.aLogin {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.divremobilization {
+    width: 720px;
+    height: 90px;
+    border: none;
+    border-color: rgba(0, 0, 0, 0.3);
+    font-family: cursive;
+    margin-top: 22px;
+    margin-left: 210px;
+    box-shadow: 1px 1px 1px 1px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.newRem {
+    color: rgba(225, 0, 0, 1);
+}
+
+.aRemobilization {
+    color: rgba(52, 152, 219, 0.8);
+    font-weight: bold;
+}
+
+.prem {
+    margin-top: -20px;
+}
+
+.divverifycert {
+    height: 300px;
+    width: 240px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 55px;
+    margin-left: 200px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+}
+
+.imgver {
+    height: 90px;
+    width: 95px;
+    padding-top: 25px;
+}
+
+.certbutton {
+    height: 40px;
+    width: 180px;
+    border: none;
+    background-color: rgba(206, 228, 207);
+    margin-top: 10px;
+    border-radius: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.disEE {
+    color: rgba(52, 152, 219, 1);
+    font-family: cursive;
+}
+
+.divpayment {
+    height: 300px;
+    width: 240px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 55px;
+    margin-left: 475px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-top: -310px;
+}
+
+.imgpayment {
+    height: 90px;
+    width: 95px;
+    padding-top: 25px;
+}
+
+.paybutton {
+    height: 40px;
+    width: 180px;
+    border: none;
+    background-color: rgba(206, 228, 207);
+    margin-top: 10px;
+    border-radius: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.tocheck {
+    color: rgba(52, 152, 219, 0.8);
+    font-family: cursive;
+}
+
+.divmainsite {
+    height: 300px;
+    width: 240px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 55px;
+    margin-left: 750px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-top: -310px;
+}
+
+.imgmain {
+    height: 90px;
+    width: 95px;
+    padding-top: 25px;
+}
+
+.sitebutton {
+    height: 40px;
+    width: 180px;
+    border: none;
+    background-color: rgba(206, 228, 207);
+    margin-top: 10px;
+    border-radius: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.visitsite {
+    color: rgba(52, 152, 219, 0.8);
+    font-family: cursive;
+}
+
+.ghead {
+    margin-left: 200px;
+    font-family: calibri;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.hr2 {
+    color: rgba(0, 0, 0, 1);
+    margin-top: -14px;
+    margin-left: 186px;
+    width: 820px;
+}
+
+.divpcm {
+    height: 300px;
+    width: 240px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left: 150px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: calibri;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.hrforeign {
+    color: rgba(0, 0, 0, 0.3);
+    width: 192px;
+    margin-top: 2px;
+}
+
+.imggraduate {
+    height: 160px;
+    width: 160px;
+    padding-top: 2px;
+}
+
+.foreignsite {
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.divguideonpay {
+    height: 300px;
+    width: 240px;
+    border-top: solid;
+    border-top-color: rgba(0, 0, 0, 0.2);
+    border-top-width: 2px;
+    border-bottom: solid;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    border-bottom-width: 2px;
+    margin-left: 390px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: calibri;
+    font-weight: bold;
+    margin-top: -310px;
+}
+
+.hrguide {
+    color: rgba(0, 0, 0, 0.3);
+    width: 200px;
+    margin-top: 2px;
+}
+
+.imgremita {
+    height: 160px;
+    width: 160px;
+    padding-top: 2px;
+}
+
+.guildesite {
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.divdateofbirth {
+    height: 320px;
+    width: 240px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left: 630px;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: calibri;
+    font-weight: bold;
+    margin-top: -335px;
+}
+
+.dobsite {
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.imgcalendar {
+    height: 160px;
+    width: 160px;
+    padding-top: 2px;
+}
+
+.divfaq {
+    height: 300px;
+    width: 240px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-left: 870px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: calibri;
+    font-weight: bold;
+    margin-top: -345px;
+    border-left: none;
+}
+
+.hrfaqs {
+    color: rgba(0, 0, 0, 0.3);
+    width: 192px;
+    margin-top: 2px;
+}
+
+.imgfaq {
+    height: 160px;
+    width: 160px;
+    padding-top: 2px;
+}
+
+.faqsite {
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.hrinfo {
+    color: rgba(0, 0, 0, 0.7);
+    width: 920px;
+    margin-top: -20px;
+}
+
+.gradlist {
+    width: 380px;
+    height: 130px;
+    border: none;
+    box-shadow: 1px 1px 0.7px 0.7px;
+    margin-left: 200px;
+    text-align: left;
+    margin-top: -25px;
+    border-radius: 6px;
+    font-family: calibri;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.alist {
+    color: rgba(52, 152, 219, 0.8);
+    text-decoration: none;
+}
+
+.biometrics {
+    width: 380px;
+    height: 68px;
+    border: none;
+    box-shadow: 1px 1px 0.7px 0.7px;
+    margin-left: 650px;
+    text-align: left;
+    margin-top: -148px;
+    border-radius: 6px;
+    font-family: calibri;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.accred {
+    width: 380px;
+    height: 80px;
+    border: none;
+    box-shadow: 1px 1px 0.7px 0.7px;
+    margin-left: 650px;
+    text-align: left;
+    margin-top: 12px;
+    border-radius: 6px;
+    font-family: calibri;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.divfooter {
+    border-top: solid;
+    color: white;
+    background-color: rgba(0, 53, 0);
+    height: 65px;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: solid;
+    border-top-color: red;
+    font-family: calibri;
+    position: fixed;
+    top: 500px;
+    bottom: 0;
+}
+
+.apolicy {
+    color: rgba(52, 152, 219, 0.8);
+    text-decoration: none;
+}
