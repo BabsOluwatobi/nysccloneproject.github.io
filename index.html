@@ -1,141 +1,180 @@
-<!DOCTYPE html> 
-<html>
-<head>
-	<title>NYSC login Portal</title>
-	<link rel="stylesheet" type="text/css" href="nysclogin.css">
-</head>
-<body>
-	<header class="header">
-	<div class="NYSCLOGO"><img src="images/nysclogo.jpeg"></div>
-		<div class="NYSC">
-			<h3>NATIONAL YOUTH SERVICE CORPS<h3>
-			<h4 class="motto">*SERVICE AND HUMILITY*</h4>
-		</div>
-		<div class="navigation">
-			<a href="" class="homebutton">Home</a>
-			<a href="" class="paymentbutton">Payment Status</a>
-			<a href="" class="contactbutton">Contact Us</a>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NYSC login Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="..." crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="nysclogin.css">
+    <style>
+      /* Basic styling adjustments to work better with Bootstrap */
+      .NYSCLOGO img {
+        max-width: 100px; /* Adjust as needed */
+        height: auto;
+      }
+      .imglogin, .imgver, .imgpayment, .imgmain, .imggraduate, .imgremita, .imgcalendar, .imgfaq {
+        max-width: 100%; /* Make images responsive */
+        height: auto;
+        display: block; /* Prevent image from affecting text flow */
+        margin: 0 auto; /* Center images */
+      }
 
-		</div>
-		<br>
-	<div class="welcome">
-		<h1 class="h1welcome">
-			Welcome to the NYSC Portal
-		</h1>
-	</div>
-	<hr class="hr1">
-</header> 
+      .divlogin, .divremobilization, .divverifycert, .divpayment, .divmainsite, .divpcm, .divguideonpay, .divdateofbirth, .divfaq {
+        padding: 20px; /* Add some padding around sections */
+        margin-bottom: 20px; /* Add spacing between sections */
+        border: 1px solid #eee; /* Add a subtle border */
+        border-radius: 5px; /* Add rounded corners */
+      }
+      .divfooter {
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f9fa; /* Light gray background for footer */
+      }
+      .header {
+        padding: 20px;
+      }
+      .navigation {
+        display: flex;
+        justify-content: center; /* Center the navigation links */
+      }
+      .navigation a {
+        margin: 0 10px; /* Add spacing between links */
+      }
+      .welcome {
+        text-align: center;
+        margin-bottom: 20px; /* Space below the welcome message */
+      }
+      .ghead, .foreignsite, .guildesite, .dobsite, .faqsite {
+        text-align: center;
+      }
+      .hr1, .hrinfo, .hrforeign, .hrguide, .hrfaqs {
+        margin: 20px auto; /* Center the hr elements */
+        max-width: 80%;
+      }
 
-	<div class="registration">
-		<p> No Active Registration</p>
-	</div>
+      /* Responsive adjustments */
+      @media (min-width: 768px) {
+        .navigation {
+          justify-content: flex-end; /* Align navigation to the right on larger screens */
+        }
+        .navigation a {
+          margin: 0 15px;
+        }
+        .divlogin, .divremobilization, .divverifycert, .divpayment, .divmainsite, .divpcm, .divguideonpay, .divdateofbirth, .divfaq {
+          display: flex;
+          align-items: center; /* Vertically center content */
+        }
+        .divlogin > *, .divremobilization > *, .divverifycert > *, .divpayment > *, .divmainsite > *, .divpcm > *, .divguideonpay > *, .divdateofbirth > *, .divfaq > * {
+          flex: 1; /* Equal width for elements within the divs */
+          padding: 10px;
+        }
+        .divlogin img, .divremobilization p, .divverifycert img, .divpayment img, .divmainsite img, .divpcm img, .divguideonpay img, .divdateofbirth img, .divfaq img {
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-3 NYSCLOGO">
+            <img src="images/nysclogo.jpeg" alt="NYSC Logo">
+          </div>
+          <div class="col-md-6 NYSC text-center">
+            <h3>NATIONAL YOUTH SERVICE CORPS</h3>
+            <h4 class="motto">*SERVICE AND HUMILITY*</h4>
+          </div>
+          <div class="col-md-3 navigation">
+            <a href="" class="homebutton btn btn-link">Home</a>
+            <a href="" class="paymentbutton btn btn-link">Payment Status</a>
+            <a href="" class="contactbutton btn btn-link">Contact Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="welcome">
+        <h1 class="h1welcome">Welcome to the NYSC Portal</h1>
+      </div>
+      <hr class="hr1">
+    </header>
 
-	<div class="divlogin">
-		<a href="#" class="aLogin">Login Here</a>
-		<br>
-		<img src="images/login.png" class="imglogin">
+    <div class="container">
+      <div class="registration">
+        <p>No Active Registration</p>
+      </div>
 
-	</div>
-	<div class="divremobilization">
-		<h2 class="newRem"> New: Online Application for Remobilization!!</h2>
-		<p class="prem"><a href="" class="aRemobilization"> Click here to Apply for Remobilization</a></p>
-		
-	</div>
-		 <div class="divverifycert">
-		 	<img src="images/verification.png" class="imgver"> <br>
-		 	<button class="certbutton">Verify Certificate</button> <br>
-		 	<p class="disEE">Discharge Exclusion and Exemption</p>
-		 	
-		 </div>
+      <div class="row">
+        <div class="col-md-4 divlogin">
+          <a href="#" class="aLogin">Login Here</a><br>
+          <img src="images/login.png" class="imglogin" alt="Login">
+        </div>
+        <div class="col-md-4 divremobilization">
+          <h2 class="newRem">New: Online Application for Remobilization!!</h2>
+          <p class="prem"><a href="" class="aRemobilization">Click here to Apply for Remobilization</a></p>
+        </div>
+        <div class="col-md-4 divverifycert">
+          <img src="images/verification.png" class="imgver" alt="Verification"><br>
+          <button class="certbutton btn btn-primary">Verify Certificate</button><br>
+          <p class="disEE">Discharge Exclusion and Exemption</p>
+        </div>
+      </div>
 
-		 <div class="divpayment">
-		 	<img src="images/paymentstatus.png" class="imgpayment"> <br>
-		 	<button class="paybutton">Payment Status</button> <br>
-		 	<p class="tocheck">To check your Payment Status</p>
+      <div class="row">
+        <div class="col-md-4 divpayment">
+          <img src="images/paymentstatus.png" class="imgpayment" alt="Payment Status"><br>
+          <button class="paybutton btn btn-primary">Payment Status</button><br>
+          <p class="tocheck">To check your Payment Status</p>
+        </div>
+        <div class="col-md-4 divmainsite">
+          <img src="images/mainsite.png" class="imgmain" alt="Main Site"><br>
+          <button class="sitebutton btn btn-primary">Visit the Main Site</button><br>
+          <p class="visitsite">Visit NYSC website for information and updates</p>
+        </div>
+      </div>
 
-		 	
-		 </div>
 
-		 <div class="divmainsite">
-		 	<img src="images/mainsite.png" class="imgmain"> <br>
-		 	<button class="sitebutton">Visit the Main Site</button> <br>
-		 	<p class="visitsite">Visit NYSC website for information and updates</p>
-		 	
-		 </div>
-		 <br>
+      <h1 class="ghead">Guidelines</h1>
+      <hr class="hrinfo">
 
-<h1 class="ghead">Guidelines</h1>
-<hr class="hrinfo">
-<br>
- 
-  <div class="divpcm">
-		 <pre><h3 class="foreignsite"><b>Foreign P.C.M 
-Requirements</h3><b></pre>
-		 	<br>
-		 	<hr class="hrforeign">
-		 	<img src="images/foreign-graduates.png" class="imggraduate">
-		 	
-		 </div>
-		
+      <div class="row">
+        <div class="col-md-4 divpcm">
+          <h3 class="foreignsite"><b>Foreign P.C.M Requirements</b></h3>
+          <hr class="hrforeign">
+          <img src="images/foreign-graduates.png" class="imggraduate" alt="Foreign Graduates">
+        </div>
+        <div class="col-md-4 divguideonpay">
+          <h3 class="guildesite"><b>Guidelines on Payment</b></h3>
+          <hr class="hrguide">
+          <img src="images/remitapayment.png" class="imgremita" alt="Remita Payment">
+        </div>
+        <div class="col-md-4 divdateofbirth">
+          <h3 class="dobsite"><b>Change of Date of Birth</b></h3>
+          <hr class="hrguide">
+          <img src="images/calendar.png" class="imgcalendar" alt="Calendar">
+        </div>
+        <div class="col-md-4 divfaq">
+          <h3 class="faqsite"><b>F.A.Qs</b></h3>
+          <hr class="hrfaqs">
+          <img src="images/faq.png" class="imgfaq" alt="FAQ">
+        </div>
+      </div>
 
-<div class="divguideonpay">
-	<pre><h3 class="guildesite"><b>Guidelines on
-Payment</h3><b></pre>
-		 	<br>
-		 	<hr class="hrguide">
-		 	<img src="images/remitapayment.png" class="imgremita">
-	
-</div>
+      <h1 class="ghead">Important Information</h1>
+      <hr class="hrinfo">
 
-<div class="divdateofbirth">
-	<pre><h3 class="dobsite"><b>Change of
-Date of
-Birth</h3><b></pre>
-		 	<br>
-		 	<hr class="hrguide">
-		 	<img src="images/calendar.png" class="imgcalendar">
-	
-</div>
+      <div class="gradlist">
+        <a href="" class="alist">Check Senate List of its equivalents</a><br><br>
+        <a href="" class="alist">View Graduation List</a>
+      </div>
 
-<div class="divfaq">
-	<pre><h3 class="faqsite"><b>F.A.Qs</h3><b></pre>
-		 	<br>
-		 	<hr class="hrfaqs">
-		 	<img src="images/faq.png" class="imgfaq">
-	
-</div>
+      <div class="biometrics">
+        <a href="" class="alist">Biometrics Instructions</a>
+      </div>
 
-	 <br>
-	 <br>
+      <div class="accred">
+        <a href="" class="alist">Accredited Institutions/Programmes</a>
+      </div>
 
-<h1 class="ghead">Important Infomation</h1>
-<hr class="hrinfo">
-<br>
-<br>
-	<div class= "gradlist">
-		<a href="" class="alist"> Check Senate List of its equivalents </a> 
-		<br>
-		<br>
-		<a href="" class="alist"> View Graduation List</a> 
-		 
-	</div>
-
-	<div  class= "biometrics">
-		
-		<a href="" class="alist"> Biometrics Instructions</a> 
-	</div>
-
-	<div  class= "accred">
-		
-		<a href="" class="alist"> Accredited Institutions/Programmes</a> 
-	</div>
-
-	<div class="divfooter">
-	<footer>
-		<small> Powered by HAVITECH</small>
-		<br>
-		<br>
-		<small> Copyright &copy; 2022 National Youth Service Corps. All right reserved <a href="" class="apolicy">|Privacy policy</a></small>
-	</footer>
-</body>
-</html>
+      <div class="divfooter">
+        <footer>
+          <small>Powered by HAVITECH</small><br><br>
