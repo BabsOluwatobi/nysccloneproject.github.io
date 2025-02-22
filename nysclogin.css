@@ -456,7 +456,7 @@ a {
     border-top: solid;
     border-top-color: red;
     font-family: calibri;
-    position: fixed;
+    position: relative;
     top: 500px;
     bottom: 0;
 }
